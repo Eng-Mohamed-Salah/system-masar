@@ -1,0 +1,90 @@
+/*----------------------------------------
+Project:	System Masar Marketing
+
+Devloper:	Hady Rabie - Mohamed Salah
+----------------------------------------*/
+/*----------------------------------------
+[Table of contents]
+
+1. Home
+
+
+/*==============================
+	Home
+==============================*/
+header{
+    height: 100vh;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+/* Title Section */
+header .titleSection{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    color: #ab9696;
+    align-items: center;
+    margin: 6px 0;
+}
+
+/* content */
+.content{
+    /* height: 100%;
+    overflow: scroll; */
+    /* min-height: 92vh; */
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+header .card{
+    /* background-color: transparent; */
+    box-shadow: var(--boxshadow);
+    background: var(--component);
+    color: var(--color);
+    border-radius: 15px
+}
+/* table */
+table{
+    border: 1px solid #b498983d !important;
+}
+table tr, table td{
+    color: var(--color) !important;
+    text-align: center;
+}
+.table>:not(:first-child){
+    border-top: transparent !important;
+}
+/* img */
+table img{
+    width: 35px;
+    height: 35px;
+    border-radius: 7px;
+    background: #DDD;
+    border: 3px solid #a37af494;
+}
+
+/* Action */
+.delete , .edit, .recovery{
+    border-radius: 7px;
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    padding: 0 7px;
+    align-items: center;
+    justify-content: center;
+}
+.delete{
+    background: rgba(255, 0, 0, 0.722);
+    color:#EEE;
+}
+.edit{
+    color: rgb(33, 149, 33);
+    background: #56ffaa1f;
+}
+.recovery{
+    background: rgb(63 79 112 / 80%);
+    color: #EEE;
+}

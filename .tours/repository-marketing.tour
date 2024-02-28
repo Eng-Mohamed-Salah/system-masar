@@ -1,0 +1,42 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Repository marketing",
+  "steps": [
+    {
+      "file": "app/Repository/RepoClass/backend/MarkettingRepo.php",
+      "description": "Step 1 Create Class MarkettingRepo And Inhertien Interface PlanRepoInterface ",
+      "line": 7
+    },
+    {
+      "file": "app/Providers/RepositoryProvider.php",
+      "description": "Make Relation Class MarkettingRepo With Interface In Provider ",
+      "line": 29
+    },
+    {
+      "file": "app/Models/Marketing.php",
+      "description": "Create Model Marketing",
+      "line": 8
+    },
+    {
+      "file": "app/Http/Controllers/backend/MarketingController.php",
+      "description": "Create Controller Marketing",
+      "line": 8
+    },
+    {
+      "file": "resources/views/services/showMarketing.blade.php",
+      "description": "Create Form Marketing",
+      "line": 448
+    },
+    {
+      "file": "routes/web.php",
+      "description": "Create Route Maketing Create Services \r\n",
+      "line": 471
+    },
+    {
+      "file": "resources/views/services/showMarketing.blade.php",
+      "description": "Problem Filter And Count Department",
+      "line": 33
+    }
+  ],
+  "ref": "main"
+}

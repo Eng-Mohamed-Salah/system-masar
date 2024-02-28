@@ -1,0 +1,95 @@
+/*----------------------------------------
+Project:	System Masar Marketing
+
+Devloper:	Hady Rabie - Mohamed Salah
+----------------------------------------*/
+/*----------------------------------------
+[Table of contents]
+
+1. Home
+
+
+
+
+/*==============================
+	Home
+==============================*/
+header{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 87vh;
+    height: 87vh;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 100%;
+}
+/* Title Section */
+header .titleSection{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    color: #ab9696;
+    align-items: center;
+    margin: 6px 0;
+}
+
+
+/* content */
+.content{
+    border-radius: 15px;
+    background: var(--component);
+    box-shadow: var(--boxshadow);
+}
+.content .card {
+    border-radius: 15px;
+    margin-top: 20px;
+    background: transparent;
+}
+.content .card .card{
+    border-radius: 15px;
+    margin-top: 20px;
+    background: var(--dark-light);
+    padding: 10px;
+}
+.content img{
+    border-radius: 80px;
+    border: 4px solid #c8baff9e;
+}
+.small{
+    color: var(--p);
+}
+
+
+/* Alert Notes */
+.btnAccordion {
+    border-radius: 7px;
+    color: var(--color);
+    background: #999aa03b;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.panel {
+    margin: auto;
+    min-width: 290px;
+    min-height: 125px;
+    border-radius: 7px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background: var(--input);
+    color: var(--color) !important;
+    z-index: 22;
+}
+.panel textarea{
+    padding-top: 10px;
+    min-height: 150px;
+    color: var(--color) !important;
+    margin: 15px 0;
+    border: 1px solid #300dcd11 !important;
+    background: #85717119;
+}
+
+

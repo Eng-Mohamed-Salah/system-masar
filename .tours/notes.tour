@@ -1,0 +1,10 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Notes",
+  "steps": [
+    {
+      "title": "Error Show Video",
+      "description": "يوجد مشكله في عرض رابط فديو اليوتيوب يجب ان يتم اخذه بطريقه embad \r\nفي عمليه Create حتي يتم عرضه بشكل سليم "
+    }
+  ]
+}
